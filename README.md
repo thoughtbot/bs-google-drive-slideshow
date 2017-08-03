@@ -1,16 +1,10 @@
+# Google Drive Slideshow
 
+An example of a Chrome app built in BuckleScript, exercising [bucklescript-chrome](https://www.github.com/thoughtbot/bucklescript-chrome) bindings.
 
-# Build
+## Build
+
 ```
+npm install
 npm run build
 ```
-
-# Watch
-
-```
-npm run watch
-```
-
-
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
