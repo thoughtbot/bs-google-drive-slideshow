@@ -13,7 +13,7 @@
   "dependencies": {
     "bs-fetch": "^0.1.1",
     "bs-json": "^0.2.1",
-    "bucklescript-chrome": "file:///Users/sidraval/code/bucklescript-chrome"
+    "bucklescript-chrome": "git://github.com/thoughtbot/bucklescript-chrome"
   },
   "devDependencies": {
     "bs-platform": "1.8.2"
