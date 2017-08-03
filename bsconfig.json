@@ -1,0 +1,12 @@
+{
+  "name": "bs-gdrive-example",
+  "version": "0.1.0",
+  "sources": [
+    "src"
+  ],
+  "bs-dependencies" : [
+    "bs-json",
+    "bs-fetch",
+    "bucklescript-chrome"
+  ]
+}

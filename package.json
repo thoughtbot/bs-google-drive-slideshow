@@ -1,0 +1,21 @@
+{
+  "name": "bs-gdrive-example",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bs-fetch": "^0.1.1",
+    "bs-json": "^0.2.1",
+    "bucklescript-chrome": "file:///Users/sidraval/code/bucklescript-chrome"
+  },
+  "devDependencies": {
+    "bs-platform": "1.8.2"
+  }
+}
