@@ -26,7 +26,7 @@ end
 
 let gDriveURL = "https://www.googleapis.com/drive/v3/files?pageSize=1000&q="
                 ^ Window.encodeURIComponent "mimeType = 'application/vnd.google-apps.folder'"
-let authHeaders token = Array.make 1 ("Authorizaton", "Bearer " ^ token) |> HeadersInit.makeWithArray
+let authHeaders token = [%bs.obj { authorization = "Bearer " ^ token }] |> HeadersInit.make
 
 
 let getDirectories token = Js.Promise.(
