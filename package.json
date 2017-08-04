@@ -16,6 +16,7 @@
     "bucklescript-chrome": "git://github.com/thoughtbot/bucklescript-chrome"
   },
   "devDependencies": {
-    "bs-platform": "1.8.2"
+    "bs-platform": "1.8.2",
+    "webpack": "^3.4.1"
   }
 }
