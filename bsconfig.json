@@ -7,6 +7,7 @@
   "bs-dependencies" : [
     "bs-json",
     "bs-fetch",
+    "bs-webapi",
     "bucklescript-chrome"
   ]
 }
