@@ -13,7 +13,7 @@
   "dependencies": {
     "bs-fetch": "^0.1.1",
     "bs-json": "^0.2.1",
-    "bs-webapi": "git://github.com/sidraval/bs-webapi-incubator",
+    "bs-webapi": "git://github.com/reasonml-community/bs-webapi-incubator",
     "bucklescript-chrome": "git://github.com/thoughtbot/bucklescript-chrome"
   },
   "devDependencies": {
